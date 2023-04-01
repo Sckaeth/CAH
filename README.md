@@ -34,7 +34,7 @@ The only change here was the data fed into the reward model. The data had random
 I realised I needed to fine-tune the model prior to any RLHF, so I did exactly that.
 
 <b>Reward Accuracy:</b> unchanged, should be 79%-ish as no changes were made. <br>
-<b>LM Performance:</b> far better generation, tends to repeat jokes again and again in the same generation. (reward average, from 100, of -12.8)
+<b>LM Performance:</b> far better generation, tends to repeat jokes again and again in the same generation. (reward average, from 100, of -12.856)
 <b> RLHF Performance:</b> TODO
 
 ---
