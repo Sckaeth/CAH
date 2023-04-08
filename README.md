@@ -8,3 +8,9 @@ This is a repository revolving around the application of LMs to the task of humo
 - [ ] BERT models - joke ranking.
 
 ---
+
+### Iterations
+| Type | Description |
+| --- | --- |
+| [GPT-2](https://github.com/Sckaeth/CAH/tree/main/Iterations/GPT-2) | Produces its own punchline to the jokes presented in the game. |
+| [BERT](https://github.com/Sckaeth/CAH/tree/main/Iterations/BERT) | Classifies and ranks jokes formed by combinations of prompts and punchlines. |
