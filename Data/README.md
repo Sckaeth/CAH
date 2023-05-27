@@ -5,6 +5,7 @@ Several data variants are present in the files, each of which are processed vers
 
 ### Extended data
 The original data compressed into only two choices per prompt, doubled in size with generated punchline choices for each prompt. This was to aid in RLHF's reward model training.
+
 ---
 
 ### No-generation data
