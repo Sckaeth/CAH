@@ -6,6 +6,10 @@ This is a repository revolving around the application of LMs to the task of humo
 ## Roadmap
 - [X] GPT-2 models - text generation.
 - [ ] BERT models - joke ranking.
+- [ ] Refactor code for reward model.
+- [ ] Refactor code for reinforcement learning.
+- [ ] Further data cleaning, as required.
+- [ ] Fix the evaluation's metrics towards what is needed.
 
 ---
 
