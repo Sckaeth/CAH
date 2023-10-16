@@ -1,17 +1,12 @@
 # Data Variants
-Several data variants are present in the files, each of which are processed versions of the original data. All of the following variants ignore prompts which require more than one punchline. Data isn't actually on the repository as it's meant to be private.
+Several data variants are present in the files, each of which are processed versions of the original data. All of the following variants ignore prompts which require more than one punchline. The data isn't actually on the repository as it's meant to be private.
 
 ---
 
-### Extended data
-The original data compressed into only two choices per prompt, doubled in size with generated punchline choices for each prompt. This was to aid in RLHF's reward model training.
+### Cards Against Humanity data
+This data is derived from the original Cards Against Humanity lab data, available upon request from mail@cardsagainsthumanity.com. This data was cleaned and split into a training split, validation split and testing split. We also generated another testing split with the uncleaned data for evaluation purposes.
 
 ---
 
-### No-generation data
-The same as the extended data, but without the generations, to retain the two choice format.
-
----
-
-### Split data
-The same as the no-generation data but split into two splits of 50% each. This was to split the data for each of the separate training processes.
+### Humicroedit data
+This data is sourced from earlier studies that attempted similar humour tasks, while we do not provide it on this repository, it is easily accessible online. We combined all of the data files in the dataset and generated our own training, validation and testing splits.
