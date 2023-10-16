@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Data files
+cah_data.csv
+proc_cah_data.csv
+test_cah_data.csv
+train_cah_data.csv
+config.json
+pytorch_model.bin
+training_args.bin
+.idea/
